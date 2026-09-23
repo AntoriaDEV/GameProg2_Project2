@@ -5,6 +5,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 {
     TS_Inputs inputs;
     CharacterController characterController;
+    
 
     [Header("Player Controls")]
     [SerializeField] public float moveSpeed = 4f;
